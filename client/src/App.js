@@ -16,7 +16,6 @@ import HomeComponent from "./pages/map"
 import MyMap from './pages/map';
 //import Mylocation from "./components/mylocation";
 import MyLocation from './pages/mylocation';
-import Result from "./components/result";
 import MyProfile from "./pages/myprofile";
 
 export default class App extends Component
