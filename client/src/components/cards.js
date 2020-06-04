@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Image from 'react-bootstrap/image'
-import { Container } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import "./cardscss.css";
 class Card extends Component {

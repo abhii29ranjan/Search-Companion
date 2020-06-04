@@ -53,7 +53,6 @@ clickLogin = (val) =>
             <Route path ="/signup" component={SignUp} />
             <Route path="/map" component={MyMap} />
             <Route path="/mylocation" component={MyLocation} />
-            <Route path="/result" component={Result} />
             <Route path="/searchfriend" component={SearchFriend} />
             <Route path="/searchbroker" component={SearchBroker} />
             <Route path="/showfriend" component={ShowFriend} />
