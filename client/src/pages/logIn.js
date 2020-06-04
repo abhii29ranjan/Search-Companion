@@ -27,7 +27,7 @@ class LogIn extends Component {
                 this.setState({log:"true"});
             })
             .catch(err =>{
-                alert("Email id or password did not match..Email id is case sensitive..So be accurate.");
+                alert("Email id or password did not match..Email id is case sensitive..So please be accurate.");
             });
            // this.props.clickData(this.state.email);
             
