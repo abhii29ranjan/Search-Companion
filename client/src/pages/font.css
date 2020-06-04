@@ -1,0 +1,109 @@
+#map {
+    height: 60vh;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .foooot
+{
+  color:white;
+}
+.divcontainer
+{
+  position: relative;
+}
+.textbox
+{
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  
+  color: rgb(44, 6, 1);
+  
+}
+.slidertitle
+{
+  position: absolute;
+  top:30px;
+  left:90px;
+  color:rgb(183, 245, 13)
+}
+
+
+
+.top
+{
+  
+  border:1px solid black;
+  padding:20px;
+  height:"400px";
+
+}
+.ashish
+{
+  background-color:red;
+
+}
+.flex-container
+{
+  display:flex;
+  justify-content: space-around;
+  border-radius: 105px;
+  border: 2px solid rgb(59, 245, 13);
+  background: rgb(243, 245, 104);
+  width: 60%;
+
+  
+  padding: 10px;
+  margin:20px auto;
+}
+.flex-block
+{
+  border :2px solid black;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  
+  
+}
+.formfield{
+  color: rgb(95, 6, 32) !important;
+}
+.formfield
+{
+  color: rgb(47, 7, 223) !important;
+}
+.form
+{
+  border: 4px solid rgb(14, 15, 0);
+  background: rgb(116, 160, 184);
+  width:50%;
+  padding:20px;
+  margin:20px auto;
+  transition: 0.5s;
+  background-image: url("https://www.unnatiunlimited.com/wp-content/uploads/2018/04/background_contact_form.jpg");
+}
+.form:hover{
+  transform: scale(1.03);
+}
+.slider{
+  transition: 0.5s;
+}
+.slider:hover{
+  transform: scale(1.03);
+}
+
+.header
+{
+  
+  color:rgba(3, 39, 63, 0.685);
+  
+}
+
+body{
+  background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+}
