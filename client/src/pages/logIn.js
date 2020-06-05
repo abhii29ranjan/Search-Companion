@@ -16,7 +16,7 @@ class LogIn extends Component {
     
      handlesubmit=(e) =>
         {
-            axios.get("http://localhost:5000/users/rec/",{
+            axios.get("/users/rec/",{
                 params:{
                     email:this.state.email,
                     pass:this.state.pass
