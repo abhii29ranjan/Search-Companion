@@ -85,7 +85,7 @@ class SearchBroker extends Component {
         localStorage.removeItem("city");
                
         console.log("in submit",obj);
-        axios.get('http://localhost:5000/friends/val',{
+        axios.get('/friends/val',{
             params:{
             mystate:this.state.mystate,
             city:this.state.city, 

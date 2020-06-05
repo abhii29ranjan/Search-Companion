@@ -131,7 +131,7 @@ class SearchFriend extends Component {
         localStorage.removeItem("occ");
                
         console.log("in submit",obj);
-        axios.get('http://localhost:5000/friends/val',{
+        axios.get('/friends/val',{
             params:{
             mystate:this.state.mystate,
             col:this.state.col,

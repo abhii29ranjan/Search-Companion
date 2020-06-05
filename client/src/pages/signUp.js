@@ -53,7 +53,7 @@ class SignUp extends Component {
             else
             {
             console.log("in submit",user);
-            axios.post('http://localhost:5000/users/add',user)
+            axios.post('/users/add',user)
             .then(res=>{
                 alert("You have successfully registered..!!.please login to procees furthur..");
 

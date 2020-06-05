@@ -189,7 +189,7 @@ class EnterFriend extends Component {
         obj.con=this.state.con;
         
         console.log("in submit",obj);
-        axios.post('http://localhost:5000/friends/add',obj)
+        axios.post('/friends/add',obj)
             .then(res=>console.log(res.data))
             .catch(error =>{
                 alert("Please fill up all the required fields");

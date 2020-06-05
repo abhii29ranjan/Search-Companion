@@ -171,7 +171,7 @@ class EnterBroker extends Component {
         obj.year=this.state.year;
         
         console.log("in submit",obj);
-        axios.post('http://localhost:5000/brokers/add',obj)
+        axios.post('/brokers/add',obj)
             .then(res=>console.log(res.data))
             .catch(error => {
                 alert("Plese provide all the required details");
