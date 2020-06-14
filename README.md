@@ -11,7 +11,7 @@ range(5 kms in mine) matching with the filters provided by the users will be ava
 profession,gender,state to which he/she belongs etc..
 
 2.The user can also find a suitbale broker for finding a suitbale rooms PGs hostels acc to his/her own choice..Every broker wihtin a certain
-range( 5 kmd in mine) will be available..
+range( 5 kms in mine) will be available..
 
 
 3.Any user can enter his details either as a broker or room companion for the others so that they can approach him/her in future..
