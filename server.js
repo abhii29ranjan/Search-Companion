@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const uri = 'mongodb+srv://Abhii:atlasabhii@freecluster-4d744.mongodb.net/test?retryWrites=true&w=majority)';
+const uri = process.env.ATLAS_URI;
 mongoose.connect(process.env.MONGODB_URI || uri, { useNewUrlParser: true, useCreateIndex: true,useUnifiedTopology:true}
 );
 const connection = mongoose.connection;

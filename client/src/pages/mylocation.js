@@ -6,6 +6,7 @@ import EnterBroker from './enterbroker';
 import SearchFriend from './searchFriend';
 import SearchBroker from './searchbroker';
 let map,infoWindow,pos;
+const mykey=process.env.REACT_APP_Google_API_KEY;
 class MyLocation extends Component {
 
  
@@ -18,7 +19,7 @@ class MyLocation extends Component {
       }
     
       renderMap = () => {
-        loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyAdoXsJFDaaKFvnN77uy1Ptmuk_Gc5cK7o&callback=initMap")
+        loadScript(`https://maps.googleapis.com/maps/api/js?key=${mykey}&callback=initMap`)
         window.initMap = this.initMap
       }
     

@@ -50,7 +50,7 @@ class ShowFriend extends Component {
                   {
                       this.props.ans.map(val=>
                         {
-                            return <List des ={val.des} email={val.email} name={val.username} age={val.age} occ={val.occ} city={val.city} mystate={val.mystate} rel={val.rel} con={val.con} /> 
+                            return <List person="friends" des ={val.des} email={val.email} name={val.username} age={val.age} occ={val.occ} city={val.city} mystate={val.mystate} rel={val.rel} con={val.con} /> 
                         })
                   }
             

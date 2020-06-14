@@ -49,7 +49,7 @@ class ShowBroker extends Component {
                   {
                       this.props.ans.map(val=>
                         {
-                            return <List des ={val.des} email={val.email} name={val.username} age={val.age} occ={val.occ} city={val.city} mystate={val.mystate} rel={val.rel} con={val.con} /> 
+                            return <List person="brokers" des ={val.des} email={val.email} name={val.username} age={val.age} price={val.price} city={val.city} mystate={val.mystate} year={val.year} con={val.con} /> 
                         })
                   }
             

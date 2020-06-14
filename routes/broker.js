@@ -68,8 +68,10 @@ router.route('/add').post((req, res) => {
       username,
       email:e,
       mystate,
-      lat,
-      lng,
+      location: {
+        type: "Point",
+        coordinates: [lng,lat]
+       },
       age,
       des, 
       city,

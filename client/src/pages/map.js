@@ -5,6 +5,7 @@ import EnterFriend from "./enterfriend";
 import EnterBroker from './enterbroker';
 import SearchFriend from './searchFriend';
 import SearchBroker from './searchbroker';
+const mykey=process.env.REACT_APP_Google_API_KEY;
 let coords;
 let location={
   lat:"",
@@ -21,7 +22,7 @@ class MyMap extends Component {
   }
 
   renderMap = () => {
-    loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyAdoXsJFDaaKFvnN77uy1Ptmuk_Gc5cK7o&callback=initMap")
+    loadScript(`https://maps.googleapis.com/maps/api/js?key=${mykey}&callback=initMap`)
     window.initMap = this.initMap
   }
 

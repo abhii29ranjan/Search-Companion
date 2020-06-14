@@ -14,16 +14,24 @@ class List extends Component {
                    <h2 class="card-title ml-5">{this.props.name}</h2>
                     <div className="row">
                     <h3 class="card-text"><b>Age:-</b>{this.props.age}</h3>
-                    <h3 class="card-text">City:-{this.props.city}</h3>
-                    <h3 class="card-text">State:-{this.props.mystate}</h3>
+                    <h3 class="card-text"><b>City:-</b>{this.props.city}</h3>
+                    <h3 class="card-text"><b>State:-</b>{this.props.mystate}</h3>
                     </div>
                     <div className="row">
-                    <h3 class="card-text">Occupation:-{this.props.occ}</h3>
-                    <h3 class="card-text">Religion:-{this.props.rel}</h3>
-                    <h3 className="card-text">Contact info:-{this.props.con}</h3>
+                    { this.props.person==="friends" &&
+                    <h3 class="card-text"><b>Occupation:-</b>{this.props.occ}</h3>}
+                    {this.props.person==="friends" &&
+                    <h3 class="card-text"><b>Religion:-</b>{this.props.rel}</h3>}
+                    { this.props.person==="brokers" &&
+                    <h3 class="card-text"><b>Price:-</b>{this.props.price}</h3>}
+                    {this.props.person==="brokers" &&
+                    <h3 class="card-text"><b>Years of experinece:-</b>{this.props.year}</h3>}
+
+
+                    <h3 className="card-text"><b>Contact info:-</b>{this.props.con}</h3>
                     </div>
-                    <h3 class="card-text">Description:{this.props.des.length>0 ?this.props.des:"Not available"}</h3>
-                    <h3 class="card-text">Mail info:- {this.props.email}</h3>
+                    <h3 class="card-text"><b>Description:</b>{this.props.des.length>0 ?this.props.des:"Not available"}</h3>
+                    <h3 class="card-text"><b>Mail info:- </b>{this.props.email}</h3>
                 </div>
                 </div>
             </div>
